@@ -1,0 +1,19 @@
+{
+  "name": "qrcode-esbuild-bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild main.ts --bundle --minify --outfile=bookmarklet.js --banner:js=javascript: --format=iife"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "esbuild": "0.20.2"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  }
+}
